@@ -460,6 +460,7 @@ font-family: 'Lobster', cursive;
 @media only screen and (max-width: 739px){
 
 .menu-modal{
+    position: fixed;
     left: 308px;
 
 }
@@ -474,7 +475,9 @@ font-family: 'Lobster', cursive;
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  
+  position: fixed;
+  left: 149px;
+  bottom: 0;
 
 }
 };
